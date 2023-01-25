@@ -79,8 +79,11 @@ body {
 }
 
 .tel-email-header:focus {
+
     color: #2196F3
 }
+
+
 
 
 .button {
@@ -459,4 +462,33 @@ h2 {
     display: flex;
     justify-content: center;
 
+}
+
+.img-email-header {
+    height: 12px;
+
+    width: 16px;
+}
+
+.atuty-svg {
+    display: flex;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.customers-logo-svg {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+
+
+}
+
+.customers-logo-svg:hover {
+
+    border-color: #2196F3;
+
+    fill: #2196F3;
+    cursor: pointer;
 }

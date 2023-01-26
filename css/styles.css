@@ -64,7 +64,7 @@ body {
     color: #2196F3;
 }
 
-.tel-email-header {
+.tel-header {
     font-weight: 500;
     color: #757575;
     font-size: 14px;
@@ -74,13 +74,46 @@ body {
 
 }
 
-.tel-email-header:hover {
-    color: #2196F3
+.tel-header:hover {
+    color: #2196F3;
+    fill: #2196F3;
 }
 
-.tel-email-header:focus {
+.tel-header:focus {
 
-    color: #2196F3
+    color: #2196F3;
+    fill: #2196F3;
+}
+
+.icon-com {
+
+
+    fill: #757575;
+    margin-right: 10px;
+}
+
+
+.email-header {
+    font-weight: 500;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1, 14285714;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+
+
+.email-header:hover {
+    color: #2196F3;
+    fill: #2196F3;
+}
+
+
+.email-header:focus {
+
+    color: #2196F3;
+    fill: #2196F3;
 }
 
 
@@ -128,12 +161,22 @@ body {
 .div-pordfolio {
     background: #FFFFFF;
 
-
 }
+
+.div-pordfolio:hover {
+    background: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
 
 .footer {
     background: #2F303A;
-    padding: 2em
+    padding: 2em;
+    max-height: 252px;
+
 }
 
 .footer-adres {
@@ -442,6 +485,7 @@ h2 {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
+
 }
 
 .team-background {
@@ -480,15 +524,136 @@ h2 {
 .customers-logo-svg {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    fill: #AFB1B8;
+}
+
+.customers-logo-svg:hover {
+    border-color: #2196F3;
+    fill: #2196F3;
+    cursor: pointer;
+}
+
+.cargo-client {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.background-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/teamimg.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    height: 600px;
+}
+
+.svg-tel-emial {
+    fill: #757575;
+    background-image: url(./icons.svg#-icon-Vector);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title-media {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+.media-icon {
+    display: inline-flex;
+    fill: #AFB1B8;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+}
+
+.media-icon :hover {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+    cursor: pointer;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.team-card-z {
+    display: inline-flex;
+    gap: 10px;
+    justify-items: center;
+    margin: 0px 32px 18px 32px;
 
 
 
 }
 
-.customers-logo-svg:hover {
+.media-icon-footer {
+    display: inline-flex;
+    fill: #FFFFFF;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+}
 
-    border-color: #2196F3;
-
-    fill: #2196F3;
+.media-icon-footer:hover {
+    background-color: #2196F3;
+    fill: #FFFFFF;
     cursor: pointer;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.media-card-footer {
+    display: inline-flex;
+    gap: 10px;
+    justify-items: center;
+
 }

@@ -180,6 +180,8 @@ body {
     display: flex;
     gap: 70px;
 
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-adres {
@@ -305,7 +307,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 30px;
+    margin-top: 10px;
+
 
 }
 
@@ -317,8 +320,8 @@ body {
     letter-spacing: 0.03em;
 
     color: #212121;
-    margin-bottom: 10px;
-    padding-top: 30px;
+
+
 }
 
 .blue {
@@ -438,11 +441,7 @@ body {
     padding-right: 50px;
 }
 
-.logo-margin-footer {
-    margin-top: 60px;
-    margin-bottom: 60px;
-
-}
+.logo-margin-footer {}
 
 
 
@@ -641,11 +640,9 @@ h2 {
 }
 
 .team-card-z {
-    display: inline-flex;
+    display: flex;
     gap: 10px;
-    justify-items: center;
-    margin: 0px 32px 30px 32px;
-
+    margin-top: 16px;
 
 
 }
@@ -686,10 +683,19 @@ h2 {
 
 .title-media-footer {
     padding-bottom: 20px;
+    padding-top: 12px;
+
     color: #FFFFFF;
+    display: block;
 }
 
-.margin-media-footer {
-    margin-top: 72px;
-    margin-bottom: 100px;
+.pading-person-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

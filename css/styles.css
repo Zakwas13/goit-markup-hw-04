@@ -58,6 +58,7 @@ body {
 
     letter-spacing: 0.03em;
     text-decoration: none;
+
 }
 
 .logo:hover {
@@ -174,8 +175,10 @@ body {
 
 .footer {
     background: #2F303A;
-    padding: 2em;
+    padding-left: 10px;
     max-height: 252px;
+    display: flex;
+    gap: 70px;
 
 }
 
@@ -302,7 +305,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -314,7 +317,7 @@ body {
     letter-spacing: 0.03em;
 
     color: #212121;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     padding-top: 30px;
 }
 
@@ -325,6 +328,7 @@ body {
 .ul {
     list-style-type: none;
     list-style-position: outside;
+
 }
 
 
@@ -434,14 +438,18 @@ body {
     padding-right: 50px;
 }
 
-.logo-pading-footer {
-    padding: 60px 0px 20px 0px;
+.logo-margin-footer {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
 }
 
+
+
+
 .address-footer {
-
-    padding-bottom: 60px;
-
+    margin-top: 20px;
+    margin-bottom: 60px;
 
 }
 
@@ -522,9 +530,24 @@ h2 {
 }
 
 .customers-logo-svg {
+    padding-top: 17.71px;
+    padding-bottom: 14.25px;
+    padding-right: 32px;
+    padding-left: 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     fill: #AFB1B8;
+    display: block;
+
+}
+
+.list-customers {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+
 }
 
 .customers-logo-svg:hover {
@@ -601,6 +624,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
+
 }
 
 .media-icon :hover {
@@ -620,7 +644,7 @@ h2 {
     display: inline-flex;
     gap: 10px;
     justify-items: center;
-    margin: 0px 32px 18px 32px;
+    margin: 0px 32px 30px 32px;
 
 
 
@@ -635,7 +659,8 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
 }
 
 .media-icon-footer:hover {
@@ -651,9 +676,20 @@ h2 {
 
 }
 
+
 .media-card-footer {
     display: inline-flex;
     gap: 10px;
     justify-items: center;
 
+}
+
+.title-media-footer {
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.margin-media-footer {
+    margin-top: 72px;
+    margin-bottom: 100px;
 }
